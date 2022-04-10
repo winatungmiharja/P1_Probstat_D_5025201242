@@ -59,7 +59,7 @@ disini kita menggunakan fungsi `rgeom` yang akan melakukan _generate_ vector dar
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <a href="https://user-images.githubusercontent.com/64743796/162614898-fcbc75cc-9d74-48b4-9eda-be3c778da84a.png"><img src="https://user-images.githubusercontent.com/64743796/162614898-fcbc75cc-9d74-48b4-9eda-be3c778da84a.png" alt="Device View" width="300"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162614898-fcbc75cc-9d74-48b4-9eda-be3c778da84a.png">(lihat resolusi penuh)</a> |
 
-dapat dilihat, jika kita tindak menggunakan `set.seed()` maka _generation_ dari hasil distribusi geometri bernilai acak dan berbeda setiap kali program dijalankan
+dapat dilihat, jika kita tidak menggunakan `set.seed()` maka _generation_ dari hasil distribusi geometri bernilai acak dan berbeda setiap kali program dijalankan
 
 ### soal 1.c
 
@@ -110,7 +110,7 @@ disini kita menggunakan _library_ external yaitu `dplyr` dan `ggplot2` untuk mel
 
 |                                                                                                                                                                                                   **Hasil Histogram**                                                                                                                                                                                                    |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <a href="https://user-images.githubusercontent.com/64743796/162615048-88bd5857-fe77-48b5-bd96-f72cde99aac0.png"><img src="https://user-images.githubusercontent.com/64743796/162615048-88bd5857-fe77-48b5-bd96-f72cde99aac0.png" alt="Device View" width="300"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162615048-88bd5857-fe77-48b5-bd96-f72cde99aac0.png">(lihat resolusi penuh)</a> |
+| <a href="https://user-images.githubusercontent.com/64743796/162615048-88bd5857-fe77-48b5-bd96-f72cde99aac0.png"><img src="https://user-images.githubusercontent.com/64743796/162615048-88bd5857-fe77-48b5-bd96-f72cde99aac0.png" alt="Device View" width="600"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162615048-88bd5857-fe77-48b5-bd96-f72cde99aac0.png">(lihat resolusi penuh)</a> |
 
 ### soal 1.e
 
@@ -193,7 +193,7 @@ disini kita menggunakan _library_ external yaitu `dplyr` dan `ggplot2` untuk mel
 
 |                                                                                                                                                                                                   **Hasil Histogram**                                                                                                                                                                                                    |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <a href="https://user-images.githubusercontent.com/64743796/162615708-30b53b67-e17b-4ef3-b58a-5bad73aa3d20.png"><img src="https://user-images.githubusercontent.com/64743796/162615708-30b53b67-e17b-4ef3-b58a-5bad73aa3d20.png" alt="Device View" width="300"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162615708-30b53b67-e17b-4ef3-b58a-5bad73aa3d20.png">(lihat resolusi penuh)</a> |
+| <a href="https://user-images.githubusercontent.com/64743796/162615708-30b53b67-e17b-4ef3-b58a-5bad73aa3d20.png"><img src="https://user-images.githubusercontent.com/64743796/162615708-30b53b67-e17b-4ef3-b58a-5bad73aa3d20.png" alt="Device View" width="600"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162615708-30b53b67-e17b-4ef3-b58a-5bad73aa3d20.png">(lihat resolusi penuh)</a> |
 
 ### 2.c
 
@@ -277,7 +277,7 @@ kita juga menggunakan 'data' dari fungsi `rpois()` dimana fungsi ini melakukan g
 
 |                                                                                                                                                                                                   **Hasil Histogram**                                                                                                                                                                                                    |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <a href="https://user-images.githubusercontent.com/64743796/162617242-3f8febf8-33a9-4dd2-b06a-e2fcb451cec5.png"><img src="https://user-images.githubusercontent.com/64743796/162617242-3f8febf8-33a9-4dd2-b06a-e2fcb451cec5.png" alt="Device View" width="300"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162617242-3f8febf8-33a9-4dd2-b06a-e2fcb451cec5.png">(lihat resolusi penuh)</a> |
+| <a href="https://user-images.githubusercontent.com/64743796/162617242-3f8febf8-33a9-4dd2-b06a-e2fcb451cec5.png"><img src="https://user-images.githubusercontent.com/64743796/162617242-3f8febf8-33a9-4dd2-b06a-e2fcb451cec5.png" alt="Device View" width="600"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162617242-3f8febf8-33a9-4dd2-b06a-e2fcb451cec5.png">(lihat resolusi penuh)</a> |
 
 ### 3.c
 
@@ -347,9 +347,9 @@ hist(
 )
 ```
 
-|                                                                                                                                                                                                     **Hasil output**                                                                                                                                                                                                     |
+|                                                                                                                                                                                                   **Hasil Histogram**                                                                                                                                                                                                    |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <a href="https://user-images.githubusercontent.com/64743796/162618901-68536129-7f85-4898-9267-32c52681648c.png"><img src="https://user-images.githubusercontent.com/64743796/162618901-68536129-7f85-4898-9267-32c52681648c.png" alt="Device View" width="300"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162618901-68536129-7f85-4898-9267-32c52681648c.png">(lihat resolusi penuh)</a> |
+| <a href="https://user-images.githubusercontent.com/64743796/162618901-68536129-7f85-4898-9267-32c52681648c.png"><img src="https://user-images.githubusercontent.com/64743796/162618901-68536129-7f85-4898-9267-32c52681648c.png" alt="Device View" width="600"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162618901-68536129-7f85-4898-9267-32c52681648c.png">(lihat resolusi penuh)</a> |
 
 ### 4.c
 
@@ -456,9 +456,10 @@ Disini kita menggunakan fungsi `rnorm()` untuk melakukan generasi data yang meng
 
 `z-score` = `nilai random` - `rata-rata` / `σ`
 
-|**Hasil Z-score**| **Hasil Plot**|
+|                                                                                                                                                                                                    **Hasil Z-score**                                                                                                                                                                                                     |                                                                                                                                                                                                      **Hasil Plot**                                                                                                                                                                                                      |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <a href="https://user-images.githubusercontent.com/64743796/162623242-95bb23ce-e34f-4d3b-9707-8e9064fd4b71.png"><img src="https://user-images.githubusercontent.com/64743796/162623242-95bb23ce-e34f-4d3b-9707-8e9064fd4b71.png" alt="Device View" width="300"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162623242-95bb23ce-e34f-4d3b-9707-8e9064fd4b71.png">(lihat resolusi penuh)</a> | <a href="https://user-images.githubusercontent.com/64743796/162623373-ad202892-ce7c-422f-b8a1-50310bd9fc45.png"><img src="https://user-images.githubusercontent.com/64743796/162623373-ad202892-ce7c-422f-b8a1-50310bd9fc45.png" alt="Device View" width="300"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162623373-ad202892-ce7c-422f-b8a1-50310bd9fc45.png">(lihat resolusi penuh)</a> |
-|:-:|:-:|
+|                                                                                                                                                                                                           :-:                                                                                                                                                                                                            |                                                                                                                                                                                                           :-:                                                                                                                                                                                                            |
 
 ### 6.b
 
@@ -476,9 +477,9 @@ hist(
 
 ```
 
-|                                                                                                                                                                                                     **Hasil output**                                                                                                                                                                                                     |
+|                                                                                                                                                                                                   **Hasil Histogram**                                                                                                                                                                                                    |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <a href="https://user-images.githubusercontent.com/64743796/162620121-9cbc0ac8-9070-4101-8d96-2f36ef84130c.png"><img src="https://user-images.githubusercontent.com/64743796/162620121-9cbc0ac8-9070-4101-8d96-2f36ef84130c.png" alt="Device View" width="300"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162620121-9cbc0ac8-9070-4101-8d96-2f36ef84130c.png">(lihat resolusi penuh)</a> |
+| <a href="https://user-images.githubusercontent.com/64743796/162620121-9cbc0ac8-9070-4101-8d96-2f36ef84130c.png"><img src="https://user-images.githubusercontent.com/64743796/162620121-9cbc0ac8-9070-4101-8d96-2f36ef84130c.png" alt="Device View" width="600"></a><br /><sup><a href="https://user-images.githubusercontent.com/64743796/162620121-9cbc0ac8-9070-4101-8d96-2f36ef84130c.png">(lihat resolusi penuh)</a> |
 
 ### 6.c
 
